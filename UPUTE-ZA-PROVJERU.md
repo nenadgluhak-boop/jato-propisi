@@ -13,7 +13,7 @@ Obveze OPG-a s peradi u Hrvatskoj, prema točkama vodiča u aplikaciji (`affects
 | Registracija objekata, klanje, jaja, označavanje | `farmreg`, `eggreg`, `slaughterreg`, `slaughter`, `labels` | narodne-novine.nn.hr, zakon.hr, hpa.mps.hr |
 | Lijekovi, karenca, nusproizvodi i uginuća | `medrecords`, `withdrawal`, `carcass`, `dead` | eur-lex.europa.eu, veterinarstvo.mps.hr |
 | Porez, računi, fiskalizacija, eRačun | `tax`, `fiscal`, `salesrec`, `taxyear` | porezna-uprava.gov.hr, narodne-novine.nn.hr, fiskalopedija.hr |
-| Upis OPG-a, osiguranje | `opg`, `insurance` | apprrr.hr, narodne-novine.nn.hr |
+| Upis OPG-a i SOPG-a, osiguranje, AGRONET | `opg`, `sopgreg`, `sopglimits`, `sopgsales`, `insurance`, `agronet` | apprrr.hr, narodne-novine.nn.hr |
 | Gnoj, okoliš | `manure`, `clean` | narodne-novine.nn.hr, mingor.gov.hr |
 
 ## Pravila

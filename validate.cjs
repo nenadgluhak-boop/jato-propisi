@@ -2,12 +2,12 @@
 // The rules match validateRulesFeed() in the Jato app (legal-guide.js): an invalid file is ignored by the app.
 const fs = require("fs");
 const GUIDE_IDS = [
-  "opg", "tax", "insurance", "farmreg", "vet", "carcass", "eggreg", "slaughterreg", "fiscal",
+  "sopgreg", "sopglimits", "sopgsales", "opg", "tax", "insurance", "farmreg", "vet", "carcass", "eggreg", "slaughterreg", "fiscal",
   "house", "origin", "vaccination", "welfare", "broilers", "bio250",
   "daily", "report", "medrecords", "dead",
   "withdrawal", "slaughter", "labels", "salesrec",
   "clean", "manure", "archive",
-  "naredba", "nd", "water", "taxyear",
+  "naredba", "nd", "water", "agronet", "taxyear",
 ];
 const fail = (m) => {
   console.error("GREŠKA: " + m);

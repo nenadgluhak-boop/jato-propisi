@@ -1,0 +1,21 @@
+name: Provjera propisa
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Format i pravila
+        run: |
+          if [ -n "${{ github.base_ref }}" ]; then git show "origin/${{ github.base_ref }}:propisi.json" > /tmp/staro.json 2>/dev/null || true; fi
+          node validate.cjs /tmp/staro.json

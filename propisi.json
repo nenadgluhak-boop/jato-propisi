@@ -1,0 +1,56 @@
+{
+  "format": "jato-propisi-1",
+  "version": 1,
+  "updated": "2026-10-13",
+  "items": [
+    {
+      "id": "eracun-izvan-pdv-2027",
+      "added": 1,
+      "date": "2027-01-01",
+      "severity": "deadline",
+      "title": "eRačun: porezni obveznici izvan sustava PDV-a izdaju eRačune od 1. 1. 2027.",
+      "summary": "OPG koji je porezni obveznik, a nije u sustavu PDV-a, od 1. 1. 2027. prema drugim poslovnim subjektima izdaje strukturirani eRačun. Prema fizičkim osobama nema promjene. OPG koji nije porezni obveznik ne izdaje ni račune ni eRačune; tvrtki kupcu izdaje se otkupni blok.",
+      "affects": ["fiscal", "tax"],
+      "sources": [
+        { "title": "Fiskalopedija · OPG izdavanje računa i fiskalizacija", "url": "https://fiskalopedija.hr/baza-znanja/opg-izdavanje-racuna-i-fiskalizacija" }
+      ]
+    },
+    {
+      "id": "fiskalizacija-2-0-2026",
+      "added": 1,
+      "date": "2026-01-01",
+      "severity": "change",
+      "title": "Fiskalizacija 2.0: fiskaliziraju se i računi plaćeni transakcijski",
+      "summary": "Od 1. 1. 2026. fiskaliziraju se i računi plaćeni na transakcijski račun, a računi iz Worda, Excela ili rukom pisani više nisu dopušteni. Prodaja vlastitih poljoprivrednih proizvoda krajnjem kupcu na gospodarstvu, štandu, tržnici ili sajmu ostaje izuzeta. Porezni obveznici moraju moći primati eRačune.",
+      "affects": ["fiscal", "salesrec"],
+      "sources": [
+        { "title": "Gospodarski list · Fiskalizacija 2.0 za OPG-ove", "url": "https://gospodarski.hr/rubrike/ostalo/fiskalizacija-2-0-za-opg-ove-sto-se-mijenja-od-2026-godine/" }
+      ]
+    },
+    {
+      "id": "objekti-malog-kapaciteta-nn65-2025",
+      "added": 1,
+      "date": "2025-04-15",
+      "severity": "change",
+      "title": "Novi pravilnik za objekte malog kapaciteta (NN 65/2025)",
+      "summary": "Mala klaonica peradi i lagomorfa može klati do 12.500 jedinica mjesečno (kokoš 1, patka 2, puran i guska 3). Uređena je i pokretna klaonica. Postojeći mali objekti imali su godinu dana za usklađivanje. Klanje na samom gospodarstvu i dalje je ograničeno na 5.000 jedinica godišnje.",
+      "affects": ["slaughterreg", "slaughter"],
+      "sources": [
+        { "title": "NN 65/2025 · Pravilnik o mjerama prilagodbe zahtjevima propisa o hrani životinjskog podrijetla", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2025_04_65_850.html" }
+      ]
+    },
+    {
+      "id": "influenca-ptica-nn138-2023",
+      "added": 1,
+      "date": "2023-11-17",
+      "severity": "info",
+      "title": "Mjere protiv influence ptica na snazi su do daljnjega",
+      "summary": "Za sva gospodarstva s peradi: držanje u zatvorenom, patke i guske odvojeno, bez vanjskih pojilica i pojenja s površinskih voda, zaštita hrane i stelje od divljih ptica, dezinfekcija i obvezna prijava veterinaru svake promjene zdravlja, uginuća i pada proizvodnje. U zonama ograničenja premještanje je zabranjeno bez rješenja.",
+      "affects": ["house", "report", "origin"],
+      "sources": [
+        { "title": "NN 138/2023 · Naredba o mjerama za sprječavanje pojave i širenja influence ptica", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_11_138_1881.html" },
+        { "title": "Ministarstvo poljoprivrede · influenca ptica", "url": "https://veterinarstvo.mps.hr/hr/naslovna/influenca-ptica/" }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,21 @@
 {
   "format": "jato-propisi-1",
-  "version": 1,
-  "updated": "2026-10-13",
+  "version": 2,
+  "updated": "2026-10-19",
   "items": [
+    {
+      "id": "zakon-veterinarski-lijekovi-nn69-2026",
+      "added": 2,
+      "date": "2026-06-29",
+      "severity": "change",
+      "title": "Novi Zakon o veterinarskim lijekovima (NN 69/2026): stroža pravila za antibiotike",
+      "summary": "Zakon je objavljen 29. 6. 2026. i stupa na snagu 30. dana od objave. Ograničava se preventivna uporaba antibiotika, a uvodi se obvezna elektronička evidencija i izvješćivanje o primjeni antimikrobnih lijekova kod životinja. Državni inspektorat nadzire evidenciju koju vode vlasnici i držatelji životinja za proizvodnju hrane (čl. 108. Uredbe (EU) 2019/6) te upis podataka o cijepljenju i liječenju u Nacionalnu elektroničku bazu. Prodaja antibiotika i lijekova na recept putem interneta je zabranjena. Što napraviti: zapišite svako liječenje peradi i poštujte karencu, a s veterinarom dogovorite kako se liječenje upisuje u bazu.",
+      "affects": ["medrecords", "withdrawal"],
+      "sources": [
+        { "title": "NN 69/2026 · Zakon o veterinarskim lijekovima i veterinarskim medicinskim proizvodima", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_06_69_831.html" },
+        { "title": "Ministarstvo poljoprivrede · U Saboru izglasan Zakon o veterinarskim lijekovima", "url": "https://poljoprivreda.gov.hr/vijesti/u-saboru-izglasan-zakon-o-veterinarskim-lijekovima-i-veterinarskim-medicinskim-proizvodima/8333" }
+      ]
+    },
     {
       "id": "eracun-izvan-pdv-2027",
       "added": 1,
@@ -12,7 +25,8 @@
       "summary": "OPG koji je porezni obveznik, a nije u sustavu PDV-a, od 1. 1. 2027. prema drugim poslovnim subjektima izdaje strukturirani eRačun. Prema fizičkim osobama nema promjene. OPG koji nije porezni obveznik ne izdaje ni račune ni eRačune; tvrtki kupcu izdaje se otkupni blok.",
       "affects": ["fiscal", "tax"],
       "sources": [
-        { "title": "Fiskalopedija · OPG izdavanje računa i fiskalizacija", "url": "https://fiskalopedija.hr/baza-znanja/opg-izdavanje-racuna-i-fiskalizacija" }
+        { "title": "Fiskalopedija · OPG izdavanje računa i fiskalizacija", "url": "https://fiskalopedija.hr/baza-znanja/opg-izdavanje-racuna-i-fiskalizacija" },
+        { "title": "Porezna uprava · Izdavatelji i primatelji eRačuna te obveza izdavanja eRačuna", "url": "https://porezna-uprava.gov.hr/hr/izdavatelji-i-primatelji-eracuna-te-obveza-izdavanja-eracuna-azurirano-7-11-2025/8048" }
       ]
     },
     {
@@ -24,7 +38,8 @@
       "summary": "Od 1. 1. 2026. fiskaliziraju se i računi plaćeni na transakcijski račun, a računi iz Worda, Excela ili rukom pisani više nisu dopušteni. Prodaja vlastitih poljoprivrednih proizvoda krajnjem kupcu na gospodarstvu, štandu, tržnici ili sajmu ostaje izuzeta. Porezni obveznici moraju moći primati eRačune.",
       "affects": ["fiscal", "salesrec"],
       "sources": [
-        { "title": "Gospodarski list · Fiskalizacija 2.0 za OPG-ove", "url": "https://gospodarski.hr/rubrike/ostalo/fiskalizacija-2-0-za-opg-ove-sto-se-mijenja-od-2026-godine/" }
+        { "title": "Gospodarski list · Fiskalizacija 2.0 za OPG-ove", "url": "https://gospodarski.hr/rubrike/ostalo/fiskalizacija-2-0-za-opg-ove-sto-se-mijenja-od-2026-godine/" },
+        { "title": "Porezna uprava · Fiskalizacija računa u krajnjoj potrošnji (B2C)", "url": "https://porezna-uprava.gov.hr/hr/fiskalizacija-racuna-u-krajnjoj-potrosnji-b2c-poslovanje/8033" }
       ]
     },
     {
@@ -45,10 +60,11 @@
       "date": "2023-11-17",
       "severity": "info",
       "title": "Mjere protiv influence ptica na snazi su do daljnjega",
-      "summary": "Za sva gospodarstva s peradi: držanje u zatvorenom, patke i guske odvojeno, bez vanjskih pojilica i pojenja s površinskih voda, zaštita hrane i stelje od divljih ptica, dezinfekcija i obvezna prijava veterinaru svake promjene zdravlja, uginuća i pada proizvodnje. U zonama ograničenja premještanje je zabranjeno bez rješenja.",
+      "summary": "Za sva gospodarstva s peradi: perad se drži tako da je onemogućen svaki kontakt s divljim pticama, patke i guske odvojeno, vanjski spremnici vode redovito se čiste, zabranjeno je pojenje s površinskih voda, zaštita hrane i stelje od divljih ptica, dezinfekcija i obvezna prijava veterinaru svake promjene zdravlja, uginuća i pada proizvodnje. U zonama ograničenja premještanje je zabranjeno bez rješenja. Izmjena NN 55/2024 (na snazi od 11. 5. 2024.) zamijenila je obvezno držanje u zatvorenim nastambama zahtjevom da nema kontakta s divljim pticama, a zabranu vanjskih spremnika vode obvezom njihova redovitog čišćenja.",
       "affects": ["house", "report", "origin"],
       "sources": [
         { "title": "NN 138/2023 · Naredba o mjerama za sprječavanje pojave i širenja influence ptica", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_11_138_1881.html" },
+        { "title": "NN 55/2024 · Naredba o izmjenama Naredbe o mjerama za sprječavanje influence ptica", "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_05_55_971.html" },
         { "title": "Ministarstvo poljoprivrede · influenca ptica", "url": "https://veterinarstvo.mps.hr/hr/naslovna/influenca-ptica/" }
       ]
     }

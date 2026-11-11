@@ -1,4 +1,4 @@
-# Jato · novosti o propisima
+# Jato · novosti o propisima i zaštiti bilja
 
 Javna datoteka [`propisi.json`](propisi.json) s promjenama propisa važnim za OPG s peradi u Hrvatskoj. Aplikacija **Jato** je provjerava na gumb i jednom dnevno u pozadini, a za nove stavke šalje obavijest. U datoteci su samo informacije o propisima, bez korisničkih podataka.
 
@@ -29,3 +29,7 @@ Format `jato-propisi-1`:
 ```
 
 Informativni pregled, nije pravni savjet.
+
+## Zaštita bilja
+
+[`zastita.json`](zastita.json) (format `jato-zastita-1`) sadrži pregledane obavijesti savjetodavne službe o zaštiti voćnjaka, vinograda i maslinika, s izvorom. Pravila su u [uputama](UPUTE-ZA-PROVJERU.md#obavijesti-o-zaštiti-bilja-zastitajson); provjera: `node validate-zastita.cjs`.

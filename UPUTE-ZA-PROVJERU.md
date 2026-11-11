@@ -37,3 +37,24 @@ Obveze OPG-a s peradi u Hrvatskoj, prema točkama vodiča u aplikaciji (`affects
 7. **Pull request.** Naslov „Propisi: <kratko>”. U opisu je popis novosti s izvorima i kratko obrazloženje zašto je svaka bitna za OPG s peradi. Ako nema novosti, pull request se ne otvara.
 
 Ovo je informativni pregled za korisnike, a ne pravni savjet. Aplikacija to navodi uz svaku novost.
+
+# Obavijesti o zaštiti bilja (`zastita.json`)
+
+Druga datoteka u ovom repozitoriju, format `jato-zastita-1`. Jato je prikazuje u **Gospodarstvo › Nasadi i zaštita bilja** korisnicima s voćnjakom, vinogradom ili maslinikom, filtrirano po kulturi i županiji nasada. Aplikacija je preuzima samo na gumb „Provjeri obavijesti”.
+
+## Izvori
+
+- Prvenstveno [preporuke za zaštitu bilja savjetodavne službe](https://savjetodavna.mps.hr/preporuke-zastita-bilja/) (kategorije Vinogradarstvo te Voćarstvo i maslinarstvo, po županijama).
+- Uz to: fitosanitarne naredbe u Narodnim novinama, obavijesti Ministarstva poljoprivrede (poljoprivreda.gov.hr) i HAPIH-a.
+- Registrirana sredstva provjeravaju se u [FIS-u](https://fis.mps.hr/trazilicaszb/). Ne dodaje se sredstvo koje izvor ne navodi.
+
+## Pravila
+
+1. **Samo ono što piše u izvoru.** `summary` prepričava obavijest: što, gdje, kada i koje mjere. Brojke (pragovi, karence, postotci) prepisuju se iz izvora. Doze se ne upisuju.
+2. **`products`** sadrži samo trgovačke nazive koje izvor izričito navodi, s napomenom iz izvora (npr. karenca). Bez vlastitih prijedloga, bez cijena i bez dobavljača.
+3. **`regions`**: oznake županija (vidi `validate-zastita.cjs`) ili `"all"` za cijelu državu.
+4. **`crops`**: oznake kultura iz aplikacije (`apple`, `pear`, `plum`, `peach`, `apricot`, `cherry`, `sourcherry`, `walnut`, `hazel`, `grape`, `olive`, `other`). Prazan popis znači sve kulture; koristi se kad izvor govori općenito o voćkama.
+5. **`targets`**: hrvatski nazivi bolesti ili štetnika kako ih navodi izvor, latinski u zagradi kad postoji. Po njima aplikacija povezuje obavijest s AI procjenom fotografije.
+6. **`kind`**: `notice` za datiranu obavijest (prikazuje se 60 dana), `calendar` za mjeru koja se ponavlja svake godine u razdoblju `from`–`to` (MM-DD). Kalendarska stavka mora imati izvor koji opisuje to razdoblje (npr. tehnološke upute).
+7. Ništa se ne briše; `version` + 1, `updated` = današnji datum, nove stavke imaju `added` = nova verzija.
+8. Prije pull requesta: `node validate-zastita.cjs staro-zastita.json`, gdje je `staro-zastita.json` verzija s grane `main`. Naslov pull requesta: „Zaštita bilja: <kratko>”.

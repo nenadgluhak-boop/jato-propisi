@@ -1,0 +1,66 @@
+{
+  "format": "jato-zastita-1",
+  "version": 1,
+  "updated": "2026-11-11",
+  "items": [
+    {
+      "id": "bjelovar-jesenska-zastita-bakrom-2026",
+      "added": 1,
+      "date": "2026-11-06",
+      "kind": "notice",
+      "regions": ["bjelovarsko-bilogorska"],
+      "crops": ["peach", "plum", "cherry", "sourcherry", "apricot", "walnut", "hazel"],
+      "title": "Jesenska zaštita koštičavog voća, oraha i lijeske bakrenim pripravcima",
+      "summary": "Savjetodavna služba preporučuje jesensko tretiranje bakrenim pripravcima kad otpadne 50–70 % lišća. Tretman dezinficira rane od opadanja lišća i smanjuje prezimljavanje uzročnika bakterioza, šupljikavosti, kovrčavosti lista breskve, rogača šljive i monilije, a kod oraha i lijeske bakterijske paleži i gnomonije. Prije tretmana orezati suhe i bolesne grane te ukloniti mumificirane plodove; u malim voćnjacima pokupiti i uništiti opalo lišće. Prskati po suhom i mirnom vremenu, u najtoplijem dijelu dana, s većom količinom vode. Bakreni pripravak birati prema registraciji u FIS-u.",
+      "targets": ["bakterijski rak", "bakterioza", "šupljikavost", "kovrčavost lista breskve", "rogač šljive", "monilija", "bakterijska palež oraha", "gnomonija", "bakterijska palež lijeske"],
+      "products": [],
+      "sources": [
+        {
+          "title": "Savjetodavna služba · Obavijest proizvođačima voća (6. 11. 2026.)",
+          "url": "https://savjetodavna.mps.hr/2026/11/06/obavijest-poljoprivrednim-proizvodacima-voca-3/"
+        }
+      ]
+    },
+    {
+      "id": "neretva-sredozemna-vocna-muha-2026-11",
+      "added": 1,
+      "date": "2026-11-03",
+      "kind": "notice",
+      "regions": ["dubrovacko-neretvanska"],
+      "crops": [],
+      "title": "Povećan ulov sredozemne voćne muhe u dolini Neretve",
+      "summary": "Ulovi sredozemne voćne muhe (Ceratitis capitata) u dolini Neretve su povećani. Gospodarski prag na žutim ljepljivim pločama je 2 odrasle jedinke tjedno. Gdje je prag prijeđen, zbog berbe se preporučuju isključivo pripravci kraće karence. Skupljati i uklanjati opale, zaražene i oštećene plodove: držati ih u zatvorenim vrećama najmanje 10 dana ili zakopati najmanje 30 cm duboko.",
+      "targets": ["sredozemna voćna muha (Ceratitis capitata)"],
+      "products": [
+        { "name": "Success bait", "note": "karenca 4 dana, prema obavijesti" },
+        { "name": "Asset Five", "note": "karenca 1 dan, prema obavijesti" },
+        { "name": "Azatin EC", "note": "karenca 7 dana, prema obavijesti" },
+        { "name": "Exirel", "note": "karenca 7 dana, najviše jedna primjena u sezoni, prema obavijesti" }
+      ],
+      "sources": [
+        {
+          "title": "Savjetodavna služba · Obavijest voćarima Dubrovačko-neretvanske županije (3. 11. 2026.)",
+          "url": "https://savjetodavna.mps.hr/2026/11/03/obavijest-vocarima-na-podrucju-dubrovacko-neretvanske-zupanije/"
+        }
+      ]
+    },
+    {
+      "id": "koprivnica-zlatna-zutica-2026",
+      "added": 1,
+      "date": "2026-09-28",
+      "kind": "notice",
+      "regions": ["koprivnicko-krizevacka"],
+      "crops": ["grape"],
+      "title": "Zlatna žutica vinove loze: iskrčiti trsove sa simptomima do proljeća",
+      "summary": "Nakon berbe pronađen je vrlo velik broj trsova zaraženih zlatnom žuticom vinove loze, koju prenosi američki cvrčak. Simptomi su najvidljiviji u jesen: rubovi listova savijaju se prema naličju, bijele sorte žute, crne crvene, a zaraženi izboji ostaju zeleni preko zime. Vinogradari su obvezni ukloniti trsove sa simptomima zajedno s korijenjem i uništiti ih, ili ih barem označiti, i ukloniti iz vinograda prije početka proljeća jer će inače biti izvor zaraze.",
+      "targets": ["zlatna žutica vinove loze", "američki cvrčak"],
+      "products": [],
+      "sources": [
+        {
+          "title": "Savjetodavna služba · Obavijest vinogradarima Koprivničko-križevačke županije (28. 9. 2026.)",
+          "url": "https://savjetodavna.mps.hr/2026/09/28/vazna-obavijest-vinogradarima-s-podrucja-koprivnicko-krizevacke-zupanije/"
+        }
+      ]
+    }
+  ]
+}

@@ -19,3 +19,7 @@ jobs:
         run: |
           if [ -n "${{ github.base_ref }}" ]; then git show "origin/${{ github.base_ref }}:propisi.json" > /tmp/staro.json 2>/dev/null || true; fi
           node validate.cjs /tmp/staro.json
+      - name: Zaštita bilja
+        run: |
+          if [ -n "${{ github.base_ref }}" ]; then git show "origin/${{ github.base_ref }}:zastita.json" > /tmp/staro-zastita.json 2>/dev/null || true; fi
+          node validate-zastita.cjs /tmp/staro-zastita.json
